@@ -47,7 +47,6 @@ If you only want to *use* the theme as-is, go with Option A. If you want to *cus
 
 ### Option A - Drop-in prebuilt theme
 
-Use this if the repo/release you have includes a `static/` folder with compiled JS/CSS already in it.
 
 **Requirements:** none beyond a working CTFd 3.x install - no Node, no Yarn.
 
