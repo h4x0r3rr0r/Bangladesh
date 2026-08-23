@@ -75,7 +75,6 @@ That's it - CTFd serves directly from the prebuilt `static/` folder, no compilat
 
 ### Option B - Build from source
 
-Use this if the repo you have contains only `templates/` and `assets/` (source), with no `static/` folder - or if you want to modify the theme yourself (edit district colors, add ribbon styles, change the map, etc.).
 
 **Requirements:**
 - Node.js 16.x
