@@ -202,29 +202,6 @@ If two category names ever end up visually similar, rename one slightly, or swap
 
 ---
 
-## Project structure
-
-```
-Bangladesh/
-├── templates/               # Challenge page templates (loads the map)
-│   ├── challenges.html
-│   ├── challenge.html
-│   └── base.html
-├── assets/                  # SOURCE files - edit these
-│   ├── js/
-│   │   └── bd_districts.js  # District data, map/challenge assignment logic
-│   └── scss/                # Ribbon patterns, category legend styling
-├── static/                  # BUILT output - what CTFd actually serves
-│                            # (present only if using a prebuilt release,
-│                            #  otherwise generate by `yarn build`)
-├── package.json
-├── vite.config.js
-├── .github/workflows/       # CI: lint/build checks
-└── README.md
-```
-
----
-
 ## Known limitations
 
 - One district per standalone challenge - grouping is done manually via shared tags, not automatically
